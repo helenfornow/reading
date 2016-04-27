@@ -1,0 +1,157 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrapper {
+    background-color: #b5a397;
+    margin: auto;
+}
+
+#container {
+    width: 816px;
+    margin: auto;
+    font-family: 'Muli', sans-serif;
+    
+    
+}
+
+/*header stuff*/
+
+#header {
+    width: 816px;
+    margin: auto;
+    text-align: center;
+}
+
+#header h1 {
+    font-size: 65px;
+    color: #30231d;
+}
+
+/*menubar stuff*/
+
+#menubar ul {
+    display: table;
+    padding: 10px 0px;
+    width: 816px;
+    text-align: center;
+}
+
+#menubar ul li {
+    display: inline-block;
+    width: 269px;
+    text-align: center;
+    text-decoration: none; 
+    color: #30231d;
+    font-weight: bolder;
+    
+}
+
+/*content stuff*/
+
+#content div {
+    height: 450px;
+    width: 376px;
+    border: black solid 2px;
+}
+
+#new-read {
+    float: left;
+}
+
+
+#re-read {
+    float: right;
+}
+
+#just-finished {
+   float: left;
+}
+
+#up-next {
+   float: right;
+}
+
+
+.box {
+    margin: 10px;
+    text-align: center;
+    background-color: #6a5750;
+    text-decoration: none;
+    color: #30231d;
+}
+
+
+.box:hover {
+    background-color: #30231d;
+    color: #f6f1ed;
+}
+
+.photo {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*About styling*/
+
+#pile {
+    width: 816px;
+    height: 633px;
+    background-image: url("../images/bookpile.jpg");
+    background-position: center;
+    position: relative;
+}
+
+#top {
+    position: absolute;
+    top: 0px;
+}
+
+#bottom {
+    position: absolute;
+    bottom: 0px;
+}
+
+.about-box {
+    margin: 50px;
+    text-align: center;
+    background-color: #6a5750;
+    text-decoration: none;
+    color: #30231d;
+}
+
+.about-box h2 {
+    font-size: 40px;
+    
+}
+
+
+.about-box a {
+    color: #30231d;
+}
+
+.about-box a:hover {
+    color: #f6f1ed;
+    
+}
+
+
+/*Contact styling*/
+
+#typewriter {
+    width: 816px;
+    height: 633px;
+    background-image: url("../images/typewriter.jpg");
+    background-position: center;
+
+}
+
+#page {
+    margin-left:200px;
+    margin-right: 400px;
+    font-weight: strong;
+    color: #30231d;
+    
+}
+
